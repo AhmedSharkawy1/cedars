@@ -231,11 +231,6 @@ export const UI_CONTENT = {
 
 // --- DATA DEFINITIONS ---
 
-// DOCTORS
-function getDoctors(lang: 'en' | 'ar') {
-    // This is a placeholder for the structure. We define separate arrays below.
-}
-
 const DOCTORS_DATA_EN: Doctor[] = [
   {
     id: 'dr-abdullah',

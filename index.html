@@ -4,49 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cedars Medical Center | Excellence in Healthcare UAE</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: {
-                50: '#f0fdf4',
-                100: '#dcfce7',
-                500: '#22c55e', // Standard Green
-                600: '#16a34a',
-                700: '#15803d', // Cedars Green (Logo Match)
-                800: '#166534',
-                900: '#14532d',
-              },
-              secondary: {
-                500: '#ca8a04', // Gold accent for "10 Years" and offers
-              },
-              neutral: {
-                850: '#1f2937',
-              }
-            },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              arabic: ['Noto Kufi Arabic', 'sans-serif'],
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        scroll-behavior: smooth;
-      }
-    </style>
   <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
     "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
   }
 }
@@ -54,5 +18,6 @@
 </head>
   <body class="bg-slate-50 text-slate-800 antialiased">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
